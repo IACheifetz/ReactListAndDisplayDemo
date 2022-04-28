@@ -5,6 +5,8 @@ import WeaponList from './WeaponList.js';
 import { weapons } from './Weapons-data.js';
 import ArmorList from './ArmorList.js';
 import { armors } from './Armor-data.js';
+import SpellList from './SpellList.js';
+import { spells } from './Spell-data.js';
 import './App.css';
 
 // import your arrays here
@@ -15,6 +17,7 @@ function App() {
       <JobList jobs={jobs} />
       <WeaponList weapons={weapons} />
       <ArmorList armors={armors} />
+      <SpellList spells={spells} />
     </div>
   );
 }
