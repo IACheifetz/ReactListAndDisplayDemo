@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+.armor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.armor-item img {
+  width: 125px;
+  height: 150px;
+}
+.armor-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 500px;
+  padding: 50px;
+  margin: 10px;
+  align-items: center;
+  text-align: left;
+}
+
+.job-list {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.job-item {
+  width: 200px;
+  border: solid 2px;
+  margin: 10px;
+  padding: 20px;
+  
+}
+
+.weapon-list {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.weapon-item {
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  
+}
+
+.spell-list {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.spell-item {
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  
+}
